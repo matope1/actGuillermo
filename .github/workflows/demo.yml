@@ -1,4 +1,4 @@
-name: Mostrar Nombre
+name: Mostrar Nombre Completo
 
 on:
   workflow_dispatch:
@@ -7,5 +7,5 @@ jobs:
   mostrar_nombre:
     runs-on: ubuntu-latest
     steps:
-      - name: Imprimir mi nombre
+      - name: Mi nombre esta AQUI !!
         run: echo "Guillermo Prieto Garcia"
